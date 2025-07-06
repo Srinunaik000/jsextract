@@ -17,11 +17,11 @@ A Bash-based automation tool for JavaScript file reconnaissance. It helps you fi
 ## 📦 Output Structure
 
 js_recon/
-├── output/ # Collected JS URLs (subjs, gau, wayback)
-├── extracted_endpoints/ # Manual regex-based endpoint extraction
-├── extracted_secrets/ # Manual regex-based secret extraction
-├── linkfinder/ # Output from LinkFinder
-├── secretfinder/ # Output from SecretFinder
+- ├── output/ # Collected JS URLs (subjs, gau, wayback)
+- ├── extracted_endpoints/ # Manual regex-based endpoint extraction
+- ├── extracted_secrets/ # Manual regex-based secret extraction
+- ├── linkfinder/ # Output from LinkFinder
+- ├── secretfinder/ # Output from SecretFinder
 
 
 ## Usage
@@ -63,7 +63,7 @@ secretfinder
 ## License
 MIT
 
-Credits
+## Credits
 LinkFinder
 SecretFinder
 
